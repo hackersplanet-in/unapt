@@ -1,0 +1,15 @@
+Source: unapt
+Section: utils
+Priority: optional
+Maintainer: Fidal <mrfidal@proton.me>
+Build-Depends: debhelper (>= 10), python3
+Standards-Version: 4.1.4
+Homepage: https://mrfidal.in/unapt
+
+Package: unapt
+Architecture: all
+Depends: ${misc:Depends}, ${python3:Depends}
+Description: A Command-Line Package Management Tool
+ Unapt is a versatile command-line tool designed to simplify the process of
+ downloading, installing, updating, removing, and managing files from a specified
+ repository.
